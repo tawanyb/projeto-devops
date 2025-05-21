@@ -1,0 +1,22 @@
+projeto_rateio/
+├── agents/                          ← Códigos dos agentes CrewAI
+│   ├── __init__.py
+│   ├── data_loader_agent.py         ← Agente que carrega os dados
+│   ├── processor_agent.py           ← Agente que processa o rateio
+│   └── report_generator_agent.py    ← Agente que gera o relatório
+│
+├── crew/
+│   └── cost_allocation_crew.py      ← Classe que monta e executa a Crew
+│
+├── data/                            ← PLANILHAS DE ENTRADA VÃO AQUI
+│   ├── Dados Colaboradores.xlsx
+│   ├── Beneficio 1 - Unimed.xlsx
+│   ├── Beneficio 2 - Gympass.xlsx
+│   ├── Ferramenta 1 - Github.xlsx
+│   └── Ferramenta 2 - Google workspace.xlsx
+│
+├── outputs/                         ← SAÍDA DO RELATÓRIO FINAL
+│   └── (será criado: relatorio_rateio.xlsx)
+│
+├── main.py                          ← Arquivo principal que executa o pipeline
+└── requirements.txt                 ← Dependências do projeto
